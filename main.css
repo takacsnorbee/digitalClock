@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-image: radial-gradient( #0a2e38  0%, #000000 80%);
+	color: #0a2e38;
+}
+
+#clock {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	color: #daf6ff;
+	text-align: center;
+	letter-spacing: .5rem;
+	line-height: 1.4;
+	text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+}
+
+#dateRow {
+	font-size: 1.1rem;
+}
+
+#timeRow {
+	font-size: 5rem;
+}
+
+#subText {
+	font-size: .8rem;
+	margin-top: 1rem;
+}
